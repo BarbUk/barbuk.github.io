@@ -1,5 +1,5 @@
 title = "BarbUk"
-baseURL = "https://barb.uk"
+baseURL = "https://iam.barb.uk"
 languageCode = "en-US"
 theme = "osprey-delight"
 tags = ["personal", "homepage", "portfolio"]
