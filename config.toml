@@ -84,8 +84,8 @@ pygmentsUseClasses = true
   url  = "/#about"
   weight = 1
 [[menu.main]]
-  name = "Work"
-  url  = "/#work"
+  name = "Projects"
+  url  = "/#projects"
   weight = 2
 [[menu.main]]
   name = "Blog"

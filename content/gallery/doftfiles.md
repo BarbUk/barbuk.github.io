@@ -1,5 +1,5 @@
 ---
-weight: 20
+weight: 100
 date: "2021-03-21T18:13:41+04:00"
 title: "Dotfiles"
 image: "images/dotfiles.png"

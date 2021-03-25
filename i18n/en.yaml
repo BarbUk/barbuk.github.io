@@ -3,6 +3,6 @@ generic:
 coop:
   other: Cooperation
 business:
-  other: Business-related (e.g. application)
+  other: Business-related (e.g. sysadmin / monitoring)
 project:
   other: Project

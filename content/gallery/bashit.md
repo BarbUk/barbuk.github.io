@@ -1,5 +1,5 @@
 ---
-weight: 20
+weight: 30
 date: "2021-03-21T18:13:41+04:00"
 title: "Bashit"
 color: "#E6E0CF"

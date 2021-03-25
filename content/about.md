@@ -7,6 +7,6 @@ draft = false
 ## 
 Linux system engineer at [772424.com](https://772424.com), I love tinkering with open source project.
 
-{{< icon "linux icon-pulse-fast" >}} test
+I made several contributions to projects I love and projects I work with everyday.
 
-Have fun using it! {{< icon "rocket icon-pulse-fast" >}}
+My work is to maintain an ecommerce hosting platform optimized for [PrestaShop](https://www.prestashop.com/), but my passion is to automate and monitor everything {{< icon "rocket icon-pulse-fast" >}}

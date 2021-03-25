@@ -1,5 +1,5 @@
 ---
-weight: 20
+weight: 10
 date: "2021-03-21T18:13:41+04:00"
 title: "Snippy"
 color: "#E8E8E8"
