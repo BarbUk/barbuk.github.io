@@ -15,7 +15,11 @@ tags:
  - it works well with a tiling window manager
  - it has a very cool feature: *selection mode*
 
-The project has not been updated since June 2019 and uses a patched version of VTE, so it needed an update.
+~~The project has not been updated since June 2019 and uses a patched version of VTE, so it needed an update.~~
+
+**Update**: [Adrián Pérez](https://github.com/aperezdc) now maintain an active fork: [https://github.com/aperezdc/termite](https://github.com/aperezdc/termite).
+
+You can find it in the [aur](https://aur.archlinux.org/packages/termite).
 
 ## Cherry picking cool PR
 
