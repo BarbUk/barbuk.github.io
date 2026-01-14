@@ -6,15 +6,15 @@
     {{ $galleryTotal := len $gallery }}
     {{ range $gallery }}
       <!-- Scratch is used to set page-scoped variable outside of this loop-->
-      {{ .Scratch.Set "$modalID" .File.BaseFileName }} 
+      {{ .Scratch.Set "$modalID" .File.BaseFileName }}
     {{ end }}
 
 
     {{ if modBool $galleryTotal 2 }}
       <!-- If gallery is an even total, all items display evenly in grid columns and rows: -->
       {{ range $gallery }}
-        <!-- If gallery items are greater than 7 and are divisible by 4, 
-             they will appear in columns of 4, else in columns of 2 or 3 -->
+        <!--  If gallery items are greater than 7 and are divisible by 4,
+              they will appear in columns of 4, else in columns of 2 or 3 -->
         <div class="gallery-item col-xs-12
         {{- if gt $galleryTotal 1 }} col-md-6
           {{- if gt $galleryTotal 7 }}

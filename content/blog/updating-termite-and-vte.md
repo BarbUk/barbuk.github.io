@@ -11,9 +11,10 @@ tags:
 ## State of termite
 
 [Termite](https://github.com/thestinger/termite) is my favorite terminal, because:
- - it's simple and fast
- - it works well with a tiling window manager
- - it has a very cool feature: *selection mode*
+
+- it's simple and fast
+- it works well with a tiling window manager
+- it has a very cool feature: *selection mode*
 
 ~~The project has not been updated since June 2019 and uses a patched version of VTE, so it needed an update.~~
 
@@ -24,11 +25,12 @@ You can find it in the [aur](https://aur.archlinux.org/packages/termite).
 ## Cherry picking cool PR
 
 Several pull request were interesting:
- - [Enable drag and drop text into termite from another program](https://github.com/thestinger/termite/pull/707) which I then upgraded to [handle drag and drop of file to terminal](https://github.com/BarbUk/termite/pull/7). ![Demo](/images/draganddrop.gif)
- - [Add config option to set VTE word character exceptions](https://github.com/thestinger/termite/pull/779)
- - [Add blink string to the properties](https://github.com/thestinger/termite/pull/763) because why not ?
- - [Add smart_copy option](https://github.com/thestinger/termite/pull/725). This one is really cool, because it allows to use `CTRL + C` and `CTRL + V` directly. `CTRL + C` only copy in the clipboard if a text is selected first.
- - [Require Control to be pressed to open URLs](https://github.com/thestinger/termite/pull/697) is another great one.
+
+- [Enable drag and drop text into termite from another program](https://github.com/thestinger/termite/pull/707) which I then upgraded to [handle drag and drop of file to terminal](https://github.com/BarbUk/termite/pull/7). ![Demo](/images/draganddrop.gif)
+- [Add config option to set VTE word character exceptions](https://github.com/thestinger/termite/pull/779)
+- [Add blink string to the properties](https://github.com/thestinger/termite/pull/763) because why not ?
+- [Add smart_copy option](https://github.com/thestinger/termite/pull/725). This one is really cool, because it allows to use `CTRL + C` and `CTRL + V` directly. `CTRL + C` only copy in the clipboard if a text is selected first.
+- [Require Control to be pressed to open URLs](https://github.com/thestinger/termite/pull/697) is another great one.
 
 The result is available in [my fork](https://github.com/BarbUk/termite).
 
