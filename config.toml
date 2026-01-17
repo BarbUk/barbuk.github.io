@@ -38,9 +38,9 @@ pygmentsUseClasses = true
 ## Social media links in footer:
 [Params.Social]
   # [str] Link to your Twitter.
-  twitter = "BarbUk"
+  #twitter = "BarbUk"
   # [str] Link to your LinkedIn.
-  linkedin = "julien-virey"
+  linkedin = "https://www.linkedin.com/in/julien-virey"
   # [str] Link to your GitHub.
   github = "https://github.com/BarbUk"
   # [str] Link to your Facebook.
@@ -100,5 +100,5 @@ pygmentsUseClasses = true
   # Use icon here to neatly back reference an external site/blog/whatever:
   pre = "<i class='icon icon-link-ext'></i>&nbsp;"
   name = ""
-  url  = "https://barbuk.org"
+  url  = "https://www.revelia-conseil.com"
   weight = 5
