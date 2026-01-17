@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://iam.barb.uk/sitemap.xml
