@@ -43,7 +43,7 @@ PygmentsCodeFences = true
   # [str] Link to your LinkedIn.
   linkedin = "https://www.linkedin.com/in/julien-virey"
   # [str] Link to your GitHub.
-  github = "https://github.com/BarbUk"
+  github = "https://github.com/barbUk"
   # [str] Link to your Facebook.
   # facebook = ""
   # [str] Link to your Instagram.
@@ -69,7 +69,7 @@ PygmentsCodeFences = true
   structuredData = true
   # [str] Tell your GitHub username so that the GitHub API is used to fetch more information for structured data.
   #   This will use information that is publicly available about your GitHub user profile at https://api.github.com/users/{USERNAME}.
-  structuredDataFromGithub = "BarbUk"
+  structuredDataFromGithub = "barbUk"
   # [bool] Enable the optional blog module
   useBlog = true
 
