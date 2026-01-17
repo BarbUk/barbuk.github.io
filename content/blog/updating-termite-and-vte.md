@@ -2,6 +2,7 @@
 title: "Updating Termite And Vte"
 date: 2021-03-23T23:29:04+04:00
 draft: false
+description: "A guide on updating the Termite terminal emulator and VTE. Learn about the state of Termite, cherry-picking PRs, and building the necessary components from source."
 tags:
     - linux
     - terminal
