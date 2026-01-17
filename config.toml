@@ -14,6 +14,7 @@ pygmentsUseClasses = true
   author = "BarbUk"
   email = "contact@barb.uk"
   description = "BarbUk personal website"
+  keywords = ["personal", "homepage", "portfolio", "blog", "developer", "tech", "dba", "sysadmin", "linux"]
   tagline = "Hi there! "
   logoBig = "/images/profil_bw.png"
   # [str] This is the logo that will be shown in the left corner of the nav bar.
@@ -39,7 +40,7 @@ pygmentsUseClasses = true
   # [str] Link to your Twitter.
   twitter = "BarbUk"
   # [str] Link to your LinkedIn.
-  linkedin = "julien-virey-8720b028"
+  linkedin = "julien-virey"
   # [str] Link to your GitHub.
   github = "https://github.com/BarbUk"
   # [str] Link to your Facebook.
@@ -61,14 +62,14 @@ pygmentsUseClasses = true
   ajaxBasin = "https://usebasin.com/f/8c8b86bcfbb9"
   googleTagManager = ""
   # [bool] Enable usage of your own 'assets/scss/_custom.css'.
-  customCSS = false
+  customCSS = true
   # [bool] Use structured data for your own https://schema.org/Person (SEO-friendly).
   #   The theme attempts to "guess" your information by using the information you give it in the configuration.
   #   For more specific usage, you can override the JSON-LD by supplying your own 'person.json' under 'assets/'
   structuredData = true
   # [str] Tell your GitHub username so that the GitHub API is used to fetch more information for structured data.
   #   This will use information that is publicly available about your GitHub user profile at https://api.github.com/users/{USERNAME}.
-  # structuredDataFromGithub = "USERNAME"
+  structuredDataFromGithub = "BarbUk"
   # [bool] Enable the optional blog module
   useBlog = true
 
