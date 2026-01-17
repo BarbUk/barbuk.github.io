@@ -8,11 +8,12 @@ tags = ["personal", "homepage", "portfolio"]
 disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
 enableEmoji = true
 pygmentsUseClasses = true
+PygmentsCodeFences = true
 
 ## Generic theme parameters:
 [Params]
   author = "BarbUk"
-  email = "contact@barb.uk"
+  email = "julien@barbuk.org"
   description = "BarbUk personal website"
   keywords = ["personal", "homepage", "portfolio", "blog", "developer", "tech", "dba", "sysadmin", "linux"]
   tagline = "Hi there! "
@@ -33,7 +34,7 @@ pygmentsUseClasses = true
   copyright = false
   # [bool] Your credit is much appreciated. It will be displayed in a small way in your footer.
   #   Anyways, of course you're free to uncomment the following line to disable the credit.
-  # credit = false
+  credit = false
 
 ## Social media links in footer:
 [Params.Social]
@@ -50,7 +51,6 @@ pygmentsUseClasses = true
   # [str] Link to your StackOverflow.
   # stackoverflow = ""
 
-
 ## Theme features:
 [Params.Feat]
   # [bool] Termynal (https://github.com/ines/termynal) is a small JS library for showing a terminal "animation" from within your gallery item.
@@ -62,7 +62,7 @@ pygmentsUseClasses = true
   ajaxBasin = "https://usebasin.com/f/8c8b86bcfbb9"
   googleTagManager = ""
   # [bool] Enable usage of your own 'assets/scss/_custom.css'.
-  customCSS = true
+  customCSS = false
   # [bool] Use structured data for your own https://schema.org/Person (SEO-friendly).
   #   The theme attempts to "guess" your information by using the information you give it in the configuration.
   #   For more specific usage, you can override the JSON-LD by supplying your own 'person.json' under 'assets/'
@@ -102,3 +102,7 @@ pygmentsUseClasses = true
   name = ""
   url  = "https://www.revelia-conseil.com"
   weight = 5
+
+[markup]
+  [markup.highlight]
+    style = 'catppuccin-latte'
