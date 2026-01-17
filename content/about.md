@@ -1,13 +1,9 @@
 +++
-title = "I'm Julien"
+title = "About Me"
 date = "2026-01-14T11:33:25+04:00"
 draft = false
 +++
 
-##
+Hi, I'm Julien. I'm a Linux System Engineer at [OceanDBA](https://www.oceandba.com/) with a passion for tinkering with open-source projects. I enjoy contributing to the tools I use and love every day.
 
-Linux system engineer at [oceandba.com](https://www.oceandba.com/), I love tinkering with open source project.
-
-I made several contributions to projects I love and projects I work with everyday.
-
-At OceanDBA, I work as a SysOps / DBA, responsible for the design, operation, and optimization of high-availability Linux infrastructures and database platforms. My role covers system automation, performance tuning, security hardening, and day-to-day operations of MySQL/MariaDB (including Galera clusters), ensuring reliable, scalable, and secure services for production environments.
+In my role as a SysOps/DBA, I manage and optimize high-availability Linux and database platforms, covering automation, performance, security, and MySQL/MariaDB operations to ensure reliable production services.
