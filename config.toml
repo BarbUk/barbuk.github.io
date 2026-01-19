@@ -62,7 +62,7 @@ PygmentsCodeFences = true
   ajaxBasin = "https://usebasin.com/f/8c8b86bcfbb9"
   googleTagManager = ""
   # [bool] Enable usage of your own 'assets/scss/_custom.css'.
-  customCSS = false
+  customCSS = true
   # [bool] Use structured data for your own https://schema.org/Person (SEO-friendly).
   #   The theme attempts to "guess" your information by using the information you give it in the configuration.
   #   For more specific usage, you can override the JSON-LD by supplying your own 'person.json' under 'assets/'

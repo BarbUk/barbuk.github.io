@@ -67,3 +67,12 @@
 /* CommentSpecial */ .chroma .cs { color:#888;font-style:italic }
 /* CommentPreproc */ .chroma .cp { color:#888;font-style:italic }
 /* CommentPreprocFile */ .chroma .cpf { color:#888;font-style:italic }
+.terminal-output {
+    font-family: monospace;
+    white-space: pre-wrap; /* To preserve whitespace and allow wrapping */
+    font-size: small;
+}
+
+.terminal {
+    font-family: monospace;
+}
