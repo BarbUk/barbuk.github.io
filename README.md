@@ -13,7 +13,7 @@ This website is built with [Hugo](https://gohugo.io/) and uses the [Osprey Delig
 To run this website locally, clone the project, sync the theme submodule and run it with hugo 0.115:
 
 ```bash
-docker run --rm --entrypoint hugo -p 1313:1313 -v "${PWD}":/src -v "${PWD}/hugo_cache":/tmp/hugo_cache hugomods/hugo:exts-0.115.4 server --bind 0.0.0.0
+hugo serve
 ```
 
 This will start a local development server, usually accessible at `http://localhost:1313`.

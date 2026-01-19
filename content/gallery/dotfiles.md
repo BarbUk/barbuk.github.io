@@ -2,7 +2,7 @@
 weight: 100
 date: "2021-03-21T18:13:41+04:00"
 title: "Dotfiles"
-image: "images/dotfiles.png"
+image: "https://github.com/BarbUk/dotfiles/raw/master/img/header.png"
 color: "#C0C0C0"
 type: "github"
 github:
@@ -12,4 +12,4 @@ github:
 
 {{! github-description !}}
 
-Check it out.
+My personal dotfiles.
