@@ -1,8 +1,8 @@
 ---
-title: "Introducing Snippy: A Powerful Snippet Manager for Rofi and FZF"
+title: "My Everyday Tool: Snippy"
 date: 2026-01-17T12:00:00+00:00
 draft: false
-description: "A look at Snippy, a snippet manager for Linux that integrates with rofi and fzf. Learn about its features like clipboard integration, cursor placement, and script execution."
+description: "Discover why Snippy, a snippet manager for Linux, is an essential part of my daily workflow, integrating seamlessly with rofi and fzf."
 tags:
     - linux
     - snippet-manager
@@ -11,7 +11,7 @@ tags:
     - tools
 ---
 
-As a terminal user, I often find myself typing the same blocks of code, commands, or text snippets over and over. To solve this, I rely on [Snippy](https://github.com/BarbUk/snippy), a project I've been maintaining and using daily for several years. It's a simple yet powerful snippet manager for Linux that integrates seamlessly with my favorite tools: `rofi` and `fzf`.
+As a terminal user, I often find myself typing the same blocks of code, commands, or text snippets over and over. For years, I've relied on [Snippy](https://github.com/BarbUk/snippy), a project I maintain and use daily. It's a simple yet powerful snippet manager for Linux that integrates seamlessly with my favorite tools: `rofi` and `fzf`.
 
 ## Why Snippy?
 
