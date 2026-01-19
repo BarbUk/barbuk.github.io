@@ -1,5 +1,5 @@
 ---
-title: "Introducing Revelia Conseil: Human-Centric Digital Marketing"
+title: "Introducing Revelia Conseil"
 date: 2025-11-15T12:00:00+00:00
 draft: false
 description: "Discover Revelia Conseil, a digital marketing agency in Mauritius led by Audrey Precy, focusing on authentic, human-centric strategies for business growth."
