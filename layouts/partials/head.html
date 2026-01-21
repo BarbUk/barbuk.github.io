@@ -53,9 +53,11 @@
 
   <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else if .Params.heading }}{{ .Params.heading }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ .Site.BaseURL }}">
+  <meta property="og:url" content="{{ .Permalink }}">
 
-  {{ if .Site.Params.opengraphImage -}}
+  {{ if .Params.image -}}
+    <meta property="og:image" content="{{ .Params.image }}">
+  {{- else if .Site.Params.opengraphImage -}}
     <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.opengraphImage}}">
   {{- end }}
 
