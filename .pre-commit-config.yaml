@@ -2,7 +2,7 @@ default_install_hook_types:
   - pre-commit
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v6.0.0
+    rev: 3e8a8703264a2f4a69428a0aa4dcb512790b2c8c # frozen: v6.0.0
     hooks:
       - id: check-added-large-files
       - id: check-case-conflict
@@ -28,52 +28,52 @@ repos:
           - --autofix
   # YAML
   - repo: https://github.com/adrienverge/yamllint.git
-    rev: v1.38.0
+    rev: cba56bcde1fdd01c1deb3f945e69764c291a6530 # frozen: v1.38.0
     hooks:
       - id: yamllint
         args: ["-d relaxed"]
   - repo: https://github.com/google/yamlfmt
-    rev: v0.21.0
+    rev: 21ca5323a9c87ee37a434e0ca908efc0a89daa07 # frozen: v0.21.0
     hooks:
       - id: yamlfmt
         language: system
   # EditorConfig
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    rev: 3.6.0
+    rev: bebfac867564fbd992e5b45379b4b0568d5cb85b # frozen: 3.6.1
     hooks:
       - id: editorconfig-checker
   # Spelling
   - repo: https://github.com/crate-ci/typos
-    rev: v1.42.0
+    rev: 631208b7aac2daa8b707f55e7331f9112b0e062d # frozen: v1.44.0
     hooks:
       - id: typos
   # Png
   - repo: https://github.com/oxipng/oxipng
-    rev: v10.0.0
+    rev: d54e7c04ea58170167d95d9b2b2ec07571602fe2 # frozen: v10.1.0
     hooks:
       - id: oxipng
         args: ["-o", "4", "--strip", "safe", "--alpha"]
   # Github action
   - repo: https://github.com/rhysd/actionlint
-    rev: v1.7.10
+    rev: 393031adb9afb225ee52ae2ccd7a5af5525e03e8 # frozen: v1.7.11
     hooks:
       - id: actionlint-system
   - repo: https://github.com/zizmorcore/zizmor-pre-commit
-    rev: v1.20.0
+    rev: ea2eb407b4cbce87cf0d502f36578950494f5ac9 # frozen: v1.23.1
     hooks:
       - id: zizmor
   # Security
   - repo: https://github.com/Yelp/detect-secrets
-    rev: v1.5.0
+    rev: 01886c8a910c64595c47f186ca1ffc0b77fa5458 # frozen: v1.5.0
     hooks:
       - id: detect-secrets
   - repo: https://github.com/gitleaks/gitleaks
-    rev: v8.30.0
+    rev: 83d9cd684c87d95d656c1458ef04895a7f1cbd8e # frozen: v8.30.1
     hooks:
       - id: gitleaks
   # Markdown
   - repo: https://github.com/rvben/rumdl-pre-commit
-    rev: v0.0.216
+    rev: a1a7657643f1f734d93e854bdb216da71c4356b9 # frozen: v0.1.62
     hooks:
       - id: rumdl-fmt
         args:
