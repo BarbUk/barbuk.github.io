@@ -105,4 +105,16 @@ PygmentsCodeFences = true
 
 [markup]
   [markup.highlight]
-    style = 'catppuccin-latte'
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = 'inline'
+    lineNumbersInTable = true
+    noClasses = false
+    style = 'monokai'
+    tabWidth = 2
+    wrapperClass = 'highlight'
