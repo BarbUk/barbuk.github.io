@@ -20,7 +20,6 @@
 
   // 2. Fix Metadata (Date · Read time)
   .sub-header {
-    margin-bottom: $vertical-rhythm * 1.5;
     font-size: 0.85rem;
     color: lighten($storm, 10%);
 
@@ -41,9 +40,9 @@
 
   // 3. Improve Subtitles (H2, H3)
   .entry-content {
+    margin-top: $vertical-rhythm * 1.5;
     h2 {
       margin-top: $vertical-rhythm * 2;
-      margin-bottom: $vertical-rhythm;
       padding-bottom: 8px;
       border-bottom: 2px solid $smoke;
       font-weight: 700;
