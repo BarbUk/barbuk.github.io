@@ -8,6 +8,12 @@
     font-family: monospace;
 }
 
+.blog h2 {
+  margin-top: $vertical-rhythm * 0.8;
+  margin-bottom: 0;
+  font-size: 1.8rem;
+}
+
 .content {
   // 1. Fix Title rendering (too many lines, bad spacing)
   h1 {
