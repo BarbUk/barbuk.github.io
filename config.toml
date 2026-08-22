@@ -1,6 +1,6 @@
 title = "BarbUk"
 baseURL = "https://iam.barb.uk"
-languageCode = "en-US"
+locale = "en-US"
 theme = "osprey-delight"
 tags = ["personal", "homepage", "portfolio"]
 # canonifyURLS = true
