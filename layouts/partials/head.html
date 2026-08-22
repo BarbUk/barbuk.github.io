@@ -94,7 +94,7 @@
 
   {{ if .Site.Params.Feat.structuredData -}}
   <script type="application/ld+json">
-  {{ (resources.Get "person.json" | resources.ExecuteAsTemplate "person.json" . | resources.Minify).Content | safeJS }}
+  {{ (resources.Get "person.json" | resources.ExecuteAsTemplate "person.json" .).Content | safeJS }}
   </script>
   {{- end }}
 
