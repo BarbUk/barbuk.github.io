@@ -10,7 +10,9 @@ tags:
     - french-cuisine
 ---
 
-The **Clafoutis** is a timeless French classic—a delightfully custardy, baked dessert that strikes the perfect balance between a flan and a light cake. While traditional clafoutis is made with black cherries, using a mix of red berries (strawberries, raspberries, blueberries, blackberries, and redcurrants) brings a vibrant tartness that pairs wonderfully with the sweet, smooth batter.
+The **Clafoutis** is a timeless French classic, a delightfully custardy, baked dessert that strikes the perfect balance between a flan and a light cake.
+
+While traditional clafoutis is made with black cherries, this dessert can be made with any fruit. For this recipe, I use a mix of red berries. But I've also made versions with apple, pear, or even lychee, which is perfect when they're in season in Mauritius.
 
 ![Une part de clafoutis](/images/clafoutis.webp "Une part de clafoutis !")
 
