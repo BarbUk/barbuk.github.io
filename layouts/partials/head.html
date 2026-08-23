@@ -93,9 +93,11 @@
   {{- end }}
 
   {{ if .Site.Params.Feat.structuredData -}}
-  <script type="application/ld+json">
-  {{ (resources.Get "person.json" | resources.ExecuteAsTemplate "person.json" . | resources.Minify).Content | safeJS }}
-  </script>
+    {{ $s := (resources.Get "person.json" | resources.ExecuteAsTemplate "person.json" .).Content }}
+    <script type="application/ld+json">
+    {{ $s | safeJS }}
+    </script>
+    {{ $_ := unmarshal $s }}
   {{- end }}
 
   {{ if .Site.Params.Feat.lazyLoading -}}

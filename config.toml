@@ -69,7 +69,7 @@ PygmentsCodeFences = true
   structuredData = true
   # [str] Tell your GitHub username so that the GitHub API is used to fetch more information for structured data.
   #   This will use information that is publicly available about your GitHub user profile at https://api.github.com/users/{USERNAME}.
-  structuredDataFromGithub = "barbUk"
+  structuredDataGitHubUser = "barbUk"
   # [bool] Enable the optional blog module
   useBlog = true
 
@@ -78,7 +78,6 @@ PygmentsCodeFences = true
   # [str[]] i18n keys used to display in an additional select box.
   #   Comment out if you want to disable it.
   select = ["generic", "coop", "business", "project"]
-
 
 [[menu.main]]
   name = "About"
