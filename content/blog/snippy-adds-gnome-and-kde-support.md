@@ -38,12 +38,18 @@ This delivers:
 
 - Reliable text pasting across modern Wayland sessions.
 - Full `{cursor}` placeholder positioning support in both desktop environments.
-- Zero extra configuration required by the user—Snippy automatically detects your desktop environment.
+- Zero extra configuration required by the user, snippy automatically detects your desktop environment.
 
 ## GNOME Support with wofi
 
 Under GNOME Wayland, standard `rofi` often encounters display and grab limitations. In v1.3.0, Snippy automatically switches to [wofi](https://hg.sr.ht/~scoopta/wofi) when running under GNOME.
 
 On KDE Plasma, Sway, Hyprland, and X11, Snippy continues to use `rofi` as the default GUI launcher, with `fzf` always available for terminal-bound usage.
+
+## Nix support
+
+The [previous release](https://github.com/BarbUk/snippy/releases/tag/v1.2.2m) also bring nix support, thanks for the work Aamod.
+
+---
 
 For manual installations or updates from source, check out the [v1.3.0 release on GitHub](https://github.com/BarbUk/snippy/releases/tag/v1.3.0).
